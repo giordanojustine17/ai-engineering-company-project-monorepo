@@ -2,7 +2,7 @@
 
 ## Current Milestone
 
-AI-driven Engineering
+Backend Architecture Proposal
 
 ## Completed
 
@@ -17,13 +17,13 @@ AI-driven Engineering
 - Created a reusable Brasaland requirements validation skill.
 - Verify all milestone requirements.
 - Review and validate changes.
+- Drafted and independently reviewed the Backend Architecture Proposal in `docs/ARCHITECTURE_PROPOSAL.md`.
+- Recorded the proposed layered modular monolith, centralized FastAPI backend, domain routers, and separation of architectural responsibilities. This is a proposal only; no backend functionality has been implemented.
 
 ## Next Steps
 
-- Commit and push changes.
-- Open a pull request.
-- Submit the pull request link to the campus.
-- Merge after approval.
+- Submit `docs/ARCHITECTURE_PROPOSAL.md` for instructor review.
+- Await instructor feedback and approval before proceeding with implementation or other milestone work.
 
 ## Current Limitations
 

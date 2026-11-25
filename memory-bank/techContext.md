@@ -2,7 +2,9 @@
 
 ## Architecture
 
-The project uses a monorepo structure, keeping all Brasaland applications, services, and shared resources in one repository.
+The project uses a monorepo structure, keeping all Brasaland applications, services, and shared resources in one repository. The Backend Architecture Proposal (`docs/ARCHITECTURE_PROPOSAL.md`) recommends a layered modular monolith: one centralized FastAPI backend, organized into domain routers and distinct architectural responsibilities.
+
+The proposed layers separate HTTP routing, request/response schemas, business services, repositories, persistence/domain models, configuration, and dependencies. Domain routers are proposed for locations, menus, sales, customers, suppliers, telemetry, and reports, composed by the main FastAPI application. These are architectural plans only; no backend application or functionality has been implemented.
 
 ## Technology Stack
 
